@@ -3,7 +3,6 @@
     "prettier-plugin-tailwindcss",
     "prettier-plugin-organize-imports"
   ],
-  "tailwindConfig": "./tailwind.config.ts",
   "printWidth": 80,
   "singleQuote": true,
   "jsxSingleQuote": true,
