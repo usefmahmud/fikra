@@ -1,4 +1,4 @@
-import Sidebar from '#/components/features/file-explorer/sidebar';
+import Sidebar from '#/components/features/file-explorer/sidebar/sidebar';
 import {
   ResizableHandle,
   ResizablePanel,
