@@ -1,5 +1,6 @@
 import type { RegisterableHotkey } from "@tanstack/react-hotkeys";
 
-export const HOTKEYS: Record<string, RegisterableHotkey> = {
+export const HOTKEYS = {
   toggleSidebar: "Mod+B",
-}
+  x: '/'
+} as const satisfies Record<string, RegisterableHotkey>;
