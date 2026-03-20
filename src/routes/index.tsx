@@ -1,3 +1,4 @@
+import Sidebar from '#/components/features/file-explorer/sidebar';
 import {
   ResizableHandle,
   ResizablePanel,
@@ -35,7 +36,7 @@ function App() {
           collapsible={true}
           collapsedSize='0'
         >
-          {/* Sidebar Content */}
+          <Sidebar />
         </ResizablePanel>
         <ResizableHandle withHandle className='focus-visible:ring-0' />
         <ResizablePanel>{/* Main Content */}</ResizablePanel>
